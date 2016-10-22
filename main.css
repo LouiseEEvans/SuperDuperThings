@@ -47,11 +47,11 @@ header img {
 }
 
 #menu a {
-  font-size: 17px;
-  font-family: lato;
-  font-weight: 300;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 2px;
   color: #000;
   display: block;
 }
@@ -69,10 +69,10 @@ header img {
 }
 
 h1 {
-  font-family: lato;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 400;
   margin: 0 0 16px 0;
 }
 
@@ -135,16 +135,31 @@ input[type="submit"]:hover {
   margin: 0 auto;
 }
 
-#block-hello .block__inner__content {
-  background-image: url('/images/hello_notebook.jpg');
-}
-
 #block-instagram .block__inner__content {
   background-image: url('/images/instagram.jpg');
+  margin-bottom: 26px;
+}
+
+#block-posting .block__inner__content {
+  background-image: url('/images/ship_times.jpg');
+  margin-bottom: 26px;
 }
 
 #block-shipping .block__inner__content {
   background-image: url('/images/free_shipping.jpg');
+  margin-bottom: 26px;
+}
+
+#block-clouds .block__inner__content {
+  background-image: url('/images/cloudchart.jpg');
+}
+
+#block-backpack .block__inner__content {
+  background-image: url('/images/backpack.jpg');
+}
+
+#block-fern .block__inner__content {
+  background-image: url('/images/metallicfern.jpg');
 }
 
 .block {
@@ -198,7 +213,7 @@ input[type="submit"]:hover {
   margin: 0 auto;
   padding: 0;
   list-style: none;
-  width: 80px;
+  width: 250px;
   height: 16px;
   left: 50%;
   margin-left: -40px;
@@ -217,6 +232,7 @@ input[type="submit"]:hover {
   text-indent: -9999px;
   width: 16px;
   height: 16px;
+  padding: 0;
   border-radius: 50%;
   outline: none;
   border: none;
@@ -240,14 +256,15 @@ input[type="submit"]:hover {
 }
 
 .footer__message {
-  font-size: 20px;
+  font-size: 18px;
+  font-style: bold;
   color: #666;
   text-align: center;
   margin: 64px 0 32px;
 }
 
 .footer__copyright {
-  font-size: 14px;
+  font-size: 11px;
   color: #666;
   text-align: center;
   margin: 64px 0 32px;
