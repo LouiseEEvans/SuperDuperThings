@@ -1,0 +1,304 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+* html .clearfix {
+  height: 1%;
+}
+
+.clearfix {
+  display: block;
+}
+
+body {
+  background-color: white;
+}
+
+header,
+#menu,
+#carousel,
+#main,
+footer {
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header img {
+  display: block;
+  margin: 96px auto 48px;
+}
+
+#menu {
+  padding-top: 0;
+  padding-bottom: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#menu a {
+  font-size: 17px;
+  font-family: lato;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+
+#menu a:hover {
+  border-bottom: 2px solid #BDE3E0;
+}
+
+#menu a:first-child {
+  margin-left: 0;
+}
+
+#menu a:last-child {
+  margin-right: 0;
+}
+
+h1 {
+  font-family: lato;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 0 16px 0;
+}
+
+p {
+  font-family: lato;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 16px;
+}
+
+label {
+  clear: both;
+  display: block;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 90%;
+  outline: none;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 8px;
+  font-family: lato;
+}
+
+form {
+  padding-top: 16px;
+}
+
+textarea {
+  min-height: 160px;
+}
+
+input[type="submit"] {
+  outline: none;
+  border: 1px solid #dedede;
+  background-color: #efefef;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  padding: 8px 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #dedede;
+  border-color: #bbb;
+}
+
+.form-group {
+  display: block;
+  clear: both;
+  margin-bottom: 16px;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#block-hello .block__inner__content {
+  background-image: url('/images/hello_notebook.jpg');
+}
+
+#block-instagram .block__inner__content {
+  background-image: url('/images/instagram.jpg');
+}
+
+#block-shipping .block__inner__content {
+  background-image: url('/images/free_shipping.jpg');
+}
+
+.block {
+  width: 100%;
+}
+
+.block__inner {
+  width: 100%;
+  padding-top: 68%;
+  position: relative;
+}
+
+.block__inner__content {
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 13px;
+  right: 13px;
+  bottom: 0;
+}
+
+#carousel {
+  margin-bottom: 26px;
+}
+
+.carousel__inner {
+  position: relative;
+  padding-top: 43.2835%;
+  height: 0;
+  overflow: hidden;
+}
+
+.carousel__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.js-carousel,
+.js-carousel img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 16px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  width: 80px;
+  height: 16px;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.slick-dots li {
+  float: left;
+  margin-left: 16px;
+}
+
+.slick-dots li:first-child {
+  margin-left: 0;
+}
+
+.slick-dots button {
+  text-indent: -9999px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 3px #fff;
+  -moz-box-shadow: inset 0 0 0 3px #fff;
+  -webkit-box-shadow: inset 0 0 0 3px #fff;
+}
+
+.slick-active button {
+  background-color: #fff;
+}
+
+#main,
+#blocks {
+  margin-top: 24px;
+}
+
+.block {
+  margin-top: 24px;
+}
+
+.footer__message {
+  font-size: 20px;
+  color: #666;
+  text-align: center;
+  margin: 64px 0 32px;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin: 64px 0 32px;
+}
+
+.column img {
+  margin-bottom: 24px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 600px) {
+  #menu a {
+    display: inline;
+    text-align: center;
+    margin-left: 22px;
+    margin-right: 22px;
+  }
+
+  input[type="email"],
+  input[type="text"],
+  textarea {
+    width: 75%;
+  }
+
+  .column {
+    width: 47%;
+    float: left;
+    margin: 0 1.25%;
+  }
+
+  .block {
+    margin-top: 0;
+    width: 33.3332%;
+    float: left;
+  }
+}
+
+@media (min-width: 960px) {
+  header,
+  #menu,
+  #main,
+  #carousel,
+  footer {
+    max-width: 1072px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #blocks {
+    max-width: 1098px;
+    margin: 0 auto;
+  }
+}
