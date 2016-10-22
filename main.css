@@ -136,30 +136,30 @@ input[type="submit"]:hover {
 }
 
 #block-instagram .block__inner__content {
-  background-image: url('/images/instagram.jpg');
+  background-image: url('images/instagram.jpg');
   margin-bottom: 26px;
 }
 
 #block-posting .block__inner__content {
-  background-image: url('/images/ship_times.jpg');
+  background-image: url('images/ship_times.jpg');
   margin-bottom: 26px;
 }
 
 #block-shipping .block__inner__content {
-  background-image: url('/images/free_shipping.jpg');
+  background-image: url('images/free_shipping.jpg');
   margin-bottom: 26px;
 }
 
 #block-clouds .block__inner__content {
-  background-image: url('/images/cloudchart.jpg');
+  background-image: url('images/cloudchart.jpg');
 }
 
 #block-backpack .block__inner__content {
-  background-image: url('/images/backpack.jpg');
+  background-image: url('images/backpack.jpg');
 }
 
 #block-fern .block__inner__content {
-  background-image: url('/images/metallicfern.jpg');
+  background-image: url('images/metallicfern.jpg');
 }
 
 .block {
